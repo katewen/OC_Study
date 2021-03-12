@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		03F166AD25F4A373007E3DAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F166AC25F4A373007E3DAD /* main.m */; };
 		03F166B625F4A3CA007E3DAD /* ThreadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F166B525F4A3CA007E3DAD /* ThreadTest.m */; };
+		82AB7D5925FB57530034E3FE /* LockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AB7D5825FB57530034E3FE /* LockTest.m */; };
+		82AB7D6125FB5EB70034E3FE /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AB7D6025FB5EB70034E3FE /* GestureViewController.m */; };
+		82AB7D6625FB63B20034E3FE /* LayerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AB7D6525FB63B20034E3FE /* LayerTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		03F166AC25F4A373007E3DAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03F166B425F4A3CA007E3DAD /* ThreadTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadTest.h; sourceTree = "<group>"; };
 		03F166B525F4A3CA007E3DAD /* ThreadTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadTest.m; sourceTree = "<group>"; };
+		82AB7D5725FB57530034E3FE /* LockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockTest.h; sourceTree = "<group>"; };
+		82AB7D5825FB57530034E3FE /* LockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockTest.m; sourceTree = "<group>"; };
+		82AB7D5F25FB5EB70034E3FE /* GestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureViewController.h; sourceTree = "<group>"; };
+		82AB7D6025FB5EB70034E3FE /* GestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureViewController.m; sourceTree = "<group>"; };
+		82AB7D6425FB63B20034E3FE /* LayerTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayerTestViewController.h; sourceTree = "<group>"; };
+		82AB7D6525FB63B20034E3FE /* LayerTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 				03F166AC25F4A373007E3DAD /* main.m */,
 				03F166B425F4A3CA007E3DAD /* ThreadTest.h */,
 				03F166B525F4A3CA007E3DAD /* ThreadTest.m */,
+				82AB7D5725FB57530034E3FE /* LockTest.h */,
+				82AB7D5825FB57530034E3FE /* LockTest.m */,
+				82AB7D5F25FB5EB70034E3FE /* GestureViewController.h */,
+				82AB7D6025FB5EB70034E3FE /* GestureViewController.m */,
+				82AB7D6425FB63B20034E3FE /* LayerTestViewController.h */,
+				82AB7D6525FB63B20034E3FE /* LayerTestViewController.m */,
 			);
 			path = OC_Study;
 			sourceTree = "<group>";
@@ -124,7 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				03F166AD25F4A373007E3DAD /* main.m in Sources */,
+				82AB7D5925FB57530034E3FE /* LockTest.m in Sources */,
 				03F166B625F4A3CA007E3DAD /* ThreadTest.m in Sources */,
+				82AB7D6625FB63B20034E3FE /* LayerTestViewController.m in Sources */,
+				82AB7D6125FB5EB70034E3FE /* GestureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
